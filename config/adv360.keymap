@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2  &kp N3    &kp N4  &kp N5               &mo 3                                                                &trans  &kp N6  &kp KP_NUM  &kp KP_MULTIPLY  &kp KP_DOT     &kp KP_N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W   &kp F     &kp P   &kp B               &none                                                                 &none   &kp J   &kp KP_N7        &kp KP_N8   &kp KP_N9  &kp KP_MINUS   &kp BSLH
-   &kp ESC      &kp A     &kp R   &kp S     &kp T   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp M   &kp KP_N4        &kp KP_N5   &kp KP_N6   &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X   &kp C     &kp D   &kp V                                 &kp HOME                  &kp PG_UP                         &kp K   &kp KP_N1        &kp KP_N2   &kp KP_N3  &kp KP_SLASH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp UP  &kp DOWN                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE            &kp LEFT        &kp RIGHT    &kp LBKT      &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1    &kp N2  &kp N3    &kp N4  &kp N5               &mo 3                                                                        &trans     &macro_ctrlc  &macro_ctrlv  &kp KP_MULTIPLY  &kp KP_DOT     &kp KP_N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W   &kp F     &kp P   &kp B               &none                                                             &macro_ctrlshiftt  &macro_ctrlpgup     &kp KP_N7        &kp KP_N8   &kp KP_N9  &kp KP_MINUS   &kp BSLH
+   &kp ESC      &kp A     &kp R   &kp S     &kp T   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL       &macro_ctrlw       &macro_xxx     &kp KP_N4        &kp KP_N5   &kp KP_N6   &kp KP_PLUS    &kp SQT
+ &kp LSHFT      &kp Z     &kp X   &kp C     &kp D   &kp V                                 &kp HOME                  &kp PG_UP                                &macro_ctrlpgdn     &kp KP_N1        &kp KP_N2   &kp KP_N3  &kp KP_SLASH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp UP  &kp DOWN                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER          &kp SPACE                       &kp LEFT        &kp RIGHT    &kp LBKT      &kp RBKT      &mo 2
             >;
         };
 
