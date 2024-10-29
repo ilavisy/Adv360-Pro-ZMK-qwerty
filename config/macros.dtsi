@@ -2,13 +2,13 @@ macro_altleft: macro_altleft{
 compatible = "zmk,behavior-macro";
 label = "macro_altleft";
 #binding-cells = <0>;
-bindings = <&mt LALT LEFT>;
+bindings = <&kp LA(LEFT)>;
 };
 macro_altright: macro_altright{
 compatible = "zmk,behavior-macro";
 label = "macro_altright";
 #binding-cells = <0>;
-bindings = <&mt LALT RIGHT>;
+bindings = <&kp LA(RIGHT)>;
 };
 macro_ctrlpgdn: macro_ctrlpgdn{
 compatible = "zmk,behavior-macro";
