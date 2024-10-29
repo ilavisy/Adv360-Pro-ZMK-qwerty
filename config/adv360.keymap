@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_mouse {
+        layer_Bmouse {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp F22  &macro_altright   &kp F5  &macro_ctrll  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrlshiftt  &macro_ctrlpgup  &kp F13          &kp F14  &kp F15  &macro_ctrlc  &trans
