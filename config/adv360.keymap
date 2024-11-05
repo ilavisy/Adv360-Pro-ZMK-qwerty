@@ -80,11 +80,31 @@
 
         layer_Bmouse {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp LG(LA(LC(F1)))     &macro_altright               &kp F5  &macro_ctrll  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrlshiftt  &macro_ctrlpgup  &kp LG(LA(LC(F2)))  &kp LG(LA(LC(F3)))   &kp LG(LA(LC(F4)))  &macro_ctrlc  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans       &macro_ctrlw       &macro_xxx  &kp LG(LA(LC(F5)))  &kp LG(LA(LC(F6)))   &kp LG(LA(LC(F7)))  &macro_ctrlv  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                             &macro_ctrlpgdn  &kp LG(LA(LC(F8)))  &kp LG(LA(LC(F9)))  &kp LG(LA(LC(F10)))        &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans             &trans                               &trans              &trans               &trans        &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp LG(LC(LS(F10)))     &macro_altright              &kp F5  &macro_ctrll  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrlshiftt  &macro_ctrlpgup              &kp F13  &kp LG(LC(LS(F8)))  &kp LG(LC(LS(F9)))  &macro_ctrlc  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans       &macro_ctrlw       &macro_xxx   &kp LG(LC(LS(F7)))  &kp LG(LC(LS(F6)))  &kp LG(LC(LS(F5)))  &macro_ctrlv  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                             &macro_ctrlpgdn   &kp LG(LC(LS(F1)))  &kp LG(LC(LS(F2)))  &kp LG(LC(LS(F3)))        &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans             &trans                                &trans              &trans              &trans        &trans  &trans
+            >;
+        };
+
+        layer_Lmouse {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_Smouse {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
