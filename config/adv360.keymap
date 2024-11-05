@@ -80,11 +80,11 @@
 
         layer_Bmouse {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp LG(LS(LC(F11)))     &macro_altright              &kp F5  &macro_ctrll  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrlshiftt  &macro_ctrlpgup   &kp LG(LS(LC(F7)))  &kp LG(LS(LC(F8)))  &kp LG(LS(LC(F9)))  &macro_ctrlc  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans       &macro_ctrlw       &macro_xxx   &kp LG(LS(LC(F4)))  &kp LG(LS(LC(F5)))  &kp LG(LS(LC(F6)))  &macro_ctrlv  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                             &macro_ctrlpgdn   &kp LG(LS(LC(F1)))  &kp LG(LS(LC(F2)))  &kp LG(LS(LC(F3)))        &trans  &trans
-  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans             &trans                                &trans              &trans              &trans        &trans   &mo 2
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp LG(F11)  &macro_altright      &kp F5  &macro_ctrll  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrlshiftt  &macro_ctrlpgup   &kp LG(F7)       &kp LG(F8)  &kp LG(F9)  &macro_ctrlc  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans       &macro_ctrlw       &macro_xxx   &kp LG(F4)       &kp LG(F5)  &kp LG(F6)  &macro_ctrlv  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                             &macro_ctrlpgdn   &kp LG(F1)       &kp LG(F2)  &kp LG(F3)        &trans  &trans
+  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans             &trans                        &trans           &trans      &trans        &trans   &mo 2
             >;
         };
 
