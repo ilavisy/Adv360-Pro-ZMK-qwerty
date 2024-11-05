@@ -80,11 +80,11 @@
 
         layer_Bmouse {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp LG(LS(LC(F10)))     &macro_altright              &kp F5  &macro_ctrll  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                             &trans   &macro_altleft  &kp LG(LS(LC(F11)))     &macro_altright              &kp F5  &macro_ctrll  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrlshiftt  &macro_ctrlpgup   &kp LG(LS(LC(F7)))  &kp LG(LS(LC(F8)))  &kp LG(LS(LC(F9)))  &macro_ctrlc  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans       &macro_ctrlw       &macro_xxx   &kp LG(LS(LC(F4)))  &kp LG(LS(LC(F5)))  &kp LG(LS(LC(F6)))  &macro_ctrlv  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                             &macro_ctrlpgdn   &kp LG(LS(LC(F1)))  &kp LG(LS(LC(F2)))  &kp LG(LS(LC(F3)))        &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans             &trans                                &trans              &trans              &trans        &trans  &trans
+  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans             &trans                                &trans              &trans              &trans        &trans   &mo 2
             >;
         };
 
@@ -94,7 +94,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &mo 2
             >;
         };
 
@@ -104,7 +104,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &mo 2
             >;
         };
 
