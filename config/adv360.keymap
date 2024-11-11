@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_Bmouse {
+        layer_Mouse {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                           &trans  &kp LG(LC(F6))  &kp LG(LC(F7))  &kp LG(LC(F8))  &kp LG(LC(F9))  &kp LG(LC(F11))  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &kp LG(LC(F12))  &kp LG(LC(F1))  &kp LG(LC(F2))  &kp LG(LC(F3))  &kp LG(LC(F4))   &kp LG(LC(F5))  &trans
