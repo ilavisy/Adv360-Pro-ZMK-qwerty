@@ -80,11 +80,11 @@
 
         layer_Mouse {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                          &trans  &kp RG(F7)  &kp RG(F8)  &kp RG(F9)  &kp RG(F10)  &kp RG(F11)  &kp RG(F12)
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &kp F24  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)  &kp LG(F10)  &kp LG(F11)  &kp LG(F12)
- &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans                  &trans  &trans  &kp LG(LS(F1))  &kp LG(F1)  &kp LG(F2)  &kp LG(F3)   &kp LG(F4)   &kp LG(F5)   &kp LG(F6)
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                          &kp RG(F1)  &kp RG(F2)  &kp RG(F3)   &kp RG(F4)   &kp RG(F5)   &kp RG(F6)
-  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans          &trans                  &trans      &trans       &trans       &trans        &mo 2
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                       &trans  &kp RG(F18)  &kp RG(F19)  &kp RG(F20)  &kp RG(F21)  &kp RG(F22)  &kp RG(F24)
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &kp RG(F11)      &kp F19      &kp F20      &kp F21      &kp F22      &kp F23      &kp F24
+ &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans                  &trans  &trans  &kp RG(F12)      &kp F13      &kp F14      &kp F15      &kp F16      &kp F17      &kp F18
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                       &kp RG(F13)  &kp RG(F13)  &kp RG(F14)  &kp RG(F15)  &kp RG(F16)  &kp RG(F17)
+  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans       &trans                    &trans       &trans       &trans       &trans        &mo 2
             >;
         };
 
