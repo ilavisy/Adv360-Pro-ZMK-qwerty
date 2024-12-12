@@ -80,11 +80,11 @@
 
         layer_Mouse {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                       &trans  &kp RG(F18)  &kp RG(F19)  &kp RG(F20)  &kp RG(F21)  &kp RG(F22)  &kp RG(F24)
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &kp RG(F11)      &kp F19      &kp F20      &kp F21      &kp F22      &kp F23      &kp F24
- &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans                  &trans  &trans  &kp RG(F12)      &kp F13      &kp F14      &kp F15      &kp F16      &kp F17      &kp F18
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                       &kp RG(F13)  &kp RG(F13)  &kp RG(F14)  &kp RG(F15)  &kp RG(F16)  &kp RG(F17)
-  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans       &trans                    &trans       &trans       &trans       &trans        &mo 2
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                            &trans  &kp RG(F18)  &kp RG(F19)  &kp RG(F20)  &kp RG(F21)  &kp RG(F22)   &kp MINUS
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                       &kp RG(F24)      &kp F19      &kp F20      &kp F21      &kp F22      &kp F23     &kp F24
+ &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans                  &kp RGUI  &kp RCTRL  &kp RG(F17)      &kp F13      &kp F14      &kp F15      &kp F16      &kp F17     &kp F18
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &kp HOME                          &kp RG(F13)  &kp RG(F13)  &kp RG(F14)  &kp RG(F15)  &kp RG(F16)  &kp RSHIFT
+  &mo 2  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                   &kp END  &kp ENTER    &kp SPACE                  &kp LEFT    &kp RIGHT     &kp LBKT     &kp RBKT       &mo 2
             >;
         };
 
